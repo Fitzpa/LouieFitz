@@ -9,12 +9,12 @@ const PortfolioItem = ({ img, alt, href, github_href, title, description }) => (
 
     <a
       href={github_href}
-      className="WorkBtns text-dark btn btn-primary btn-sm w-1 mb-2"
+      className="WorkBtns text-light btn btn-primary btn-sm w-1 mb-2"
       target="_blank"
     >
       GITHUB
     </a>
-    <p className="px-2">{description}</p>
+    <p className="px-2 text-dark">{description}</p>
   </div>
 );
 
