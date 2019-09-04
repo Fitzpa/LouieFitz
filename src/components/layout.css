@@ -372,7 +372,7 @@ a:not([href]):not([tabindex]):focus {
   padding-bottom: 190px;
 }
 .contactSection {
-  min-height: 100vh;
+  min-height: 800px;
 }
 pre,
 code,
@@ -7899,13 +7899,14 @@ button.bg-dark:focus {
     margin-left: -562.5px;
   }
   .aboutMeContainer h2 {
-    font-size: 1.9rem;
-    /* position: absolute;
-    top: 70%;
-    margin-top: -133px; */
+    font-size: 1.6rem;
+  }
+  .aboutMeContainer {
+    top: 60%;
+    margin-top: -84px; 
   }
   .aboutSection {
-    min-height: 1100px;
+    min-height: 800px;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -7915,14 +7916,14 @@ button.bg-dark:focus {
     margin-left: -450px;
   }
   .aboutMeContainer h2 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
   .aboutMeContainer {
     top: 60%;
     margin-top: -84px; 
   }
   .aboutSection {
-    min-height: 1100px;
+    min-height: 800px;
   }
 }
 @media (min-width: 701px) and (max-width: 991px) {
@@ -7941,10 +7942,10 @@ button.bg-dark:focus {
   }
   .headshotContainer {
     top: 28%;
-    margin-top: -150px;
+    margin-top: -140px;
   }
   .headshot {
-    width: 300px;
+    width: 280px;
   }
   .aboutMeContainer {
     top: 74%;
@@ -7962,10 +7963,10 @@ button.bg-dark:focus {
 @media (min-width: 701px) and (max-width: 851px) {
   .headshotContainer {
     top: 25%;
-    margin-top: -150px;
+    margin-top: -140px;
   }
   .headshot {
-    width: 300px;
+    width: 280px;
   }
   
   .aboutMeContainer {
