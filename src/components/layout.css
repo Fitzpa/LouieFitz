@@ -7926,6 +7926,12 @@ button.bg-dark:focus {
     min-height: 800px;
   }
 }
+@media (max-width: 800px) {
+  .workImage {
+    filter: blur(0) grayscale(100%);
+    -webkit-filter: blur(0) grayscale(100%);
+  }
+}
 @media (min-width: 701px) and (max-width: 991px) {
   .contactFormContainer {
     width: 675px;
